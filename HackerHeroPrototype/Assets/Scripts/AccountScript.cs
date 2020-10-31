@@ -16,6 +16,7 @@ public class AccountScript : MonoBehaviour
     private string ethnicity;
     private string hasDisability;
     private int gradeLvl;
+<<<<<<< HEAD
     private const float PROGRESS_RATE = 0.16f;
     public GameObject accountPage1;
     public GameObject accountPage2;
@@ -23,16 +24,25 @@ public class AccountScript : MonoBehaviour
 
 
 
+=======
+>>>>>>> rmouelhi
 
     public RectTransform progressMask;
 
     [Header("Page 1")]
     public TMP_InputField nameField;
+<<<<<<< HEAD
 
 
 
     [Header("Page 2")]
     
+=======
+    public Toggle pronounCheck0;
+    public Toggle pronounCheck1;
+    public Toggle pronounCheck2;
+    public Toggle pronounCheck3;
+>>>>>>> rmouelhi
     public GameObject pronounFieldObj; // used to show/hide
     public TMP_InputField pronounField;
 
@@ -58,6 +68,7 @@ public class AccountScript : MonoBehaviour
 
     public void Start()
     {
+<<<<<<< HEAD
         accountPage1.SetActive(true);
         accountPage2.SetActive(false);
         accountPage3.SetActive(false);
@@ -68,6 +79,15 @@ public class AccountScript : MonoBehaviour
         pronouns = new string[4];
 
         
+=======
+        currentPage = 1;
+
+        currentProgress = 0f; // Temp!!! TODO check progress
+        acntName = null; // Temp!
+        pronouns = new string[4];
+
+        pronounCheck0.isOn = true;
+>>>>>>> rmouelhi
 
         Debug.Log(currentProgress);
     }
@@ -85,6 +105,7 @@ public class AccountScript : MonoBehaviour
         switch (currentPage)
         {
             case 1:
+<<<<<<< HEAD
 
                 accountPage1.SetActive(true);
                 accountPage2.SetActive(false);
@@ -97,6 +118,17 @@ public class AccountScript : MonoBehaviour
                     accountPage2.SetActive(true);
                     accountPage3.SetActive(false);
 
+=======
+                break;
+            case 2:
+                if (acntName != null && pronouns != null)
+                {
+                    // TODO Next Page
+
+                    Debug.Log("Page 2 is missing!");
+                    // Undo page change due to Page 2 WIP
+                    currentPage -= direction; // temp
+>>>>>>> rmouelhi
                 }
                 else
                 {
@@ -106,6 +138,7 @@ public class AccountScript : MonoBehaviour
                 }
                 break;
             case 3:
+<<<<<<< HEAD
                 accountPage1.SetActive(false);
                 accountPage2.SetActive(false);
                 accountPage3.SetActive(true);
@@ -113,6 +146,8 @@ public class AccountScript : MonoBehaviour
                 {
                     UpdatePronouns(0);
                 }
+=======
+>>>>>>> rmouelhi
                 break;
             case 4:
                 break;
@@ -124,6 +159,7 @@ public class AccountScript : MonoBehaviour
 
     public void UpdateName()
     {
+<<<<<<< HEAD
         if (acntName == null && nameField.text != "")
         {
             currentProgress += PROGRESS_RATE;
@@ -136,13 +172,26 @@ public class AccountScript : MonoBehaviour
         }
 
         
+=======
+        if (acntName == null && nameField.text != null)
+        {
+            currentProgress += 0.125f;
+            progressMask.localScale = new Vector3(currentProgress, 1f, 1f);
+
+        }
+        acntName = nameField.text;
+>>>>>>> rmouelhi
     }
 
     public void UpdatePronouns(int _selection)
     {
         if (pronouns[0] == null)
         {
+<<<<<<< HEAD
             currentProgress += PROGRESS_RATE;
+=======
+            currentProgress += 0.125f;
+>>>>>>> rmouelhi
             progressMask.localScale = new Vector3(currentProgress, 1f, 1f);
         }
         
@@ -171,7 +220,10 @@ public class AccountScript : MonoBehaviour
                 break;
             default:
                 pronounFieldObj.SetActive(true);
+<<<<<<< HEAD
                 
+=======
+>>>>>>> rmouelhi
                 // TEMP !!! TODO: Add string parser, validator, and update currentProgress
                 pronouns[0] = "Xe"; // temp
                 pronouns[1] = "Xem"; // temp
@@ -182,6 +234,7 @@ public class AccountScript : MonoBehaviour
         
     }
 
+<<<<<<< HEAD
     public void UpdateGender(int _selection)
     {
         if (genderID == null)
@@ -207,6 +260,11 @@ public class AccountScript : MonoBehaviour
                 genderID = "unknown";
                 break;
         }
+=======
+    public void UpdateGender()
+    {
+        genderID = "";
+>>>>>>> rmouelhi
     }
 
     public void UpdateEthnicity()
