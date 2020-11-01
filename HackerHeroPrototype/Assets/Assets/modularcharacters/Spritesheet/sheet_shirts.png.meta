@@ -1,12 +1,57 @@
 fileFormatVersion: 2
 guid: 73e039b098648904bb66250127fde428
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8057567889818211410
+    second: sheet_shirts_0
+  - first:
+      213: 6794666414248615254
+    second: sheet_shirts_1
+  - first:
+      213: -5111441977000623981
+    second: sheet_shirts_2
+  - first:
+      213: 9158080170657269321
+    second: sheet_shirts_3
+  - first:
+      213: 323248094349306758
+    second: sheet_shirts_4
+  - first:
+      213: 8620146840889083666
+    second: sheet_shirts_5
+  - first:
+      213: -6837566108816283242
+    second: sheet_shirts_6
+  - first:
+      213: -3207092572955030558
+    second: sheet_shirts_7
+  - first:
+      213: -3447253864832452515
+    second: sheet_shirts_8
+  - first:
+      213: -942060880145162203
+    second: sheet_shirts_9
+  - first:
+      213: 6269717790583321287
+    second: sheet_shirts_10
+  - first:
+      213: -2638525544326532936
+    second: sheet_shirts_11
+  - first:
+      213: 5779914794702162620
+    second: sheet_shirts_12
+  - first:
+      213: -8983695750117628126
+    second: sheet_shirts_13
+  - first:
+      213: 3318248502263169105
+    second: sheet_shirts_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +79,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +94,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -71,13 +116,364 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sheet_shirts_0
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1874
+        width: 153
+        height: 174
+      alignment: 9
+      pivot: {x: 0.42966622, y: 0.46784738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25455321e4b32df60800000000000000
+      internalID: 8057567889818211410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 396
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dd094aa118b4e50800000000000000
+      internalID: 6794666414248615254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_2
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 37
+        width: 118
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3908bde7a928019b0800000000000000
+      internalID: -5111441977000623981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_3
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 482
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9464394c469081f70800000000000000
+      internalID: 9158080170657269321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1338
+        width: 171
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b230edd686c7400800000000000000
+      internalID: 323248094349306758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_5
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1415
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21746ea51e9e0a770800000000000000
+      internalID: 8620146840889083666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_6
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1004
+        width: 153
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69961cbd9d51c11a0800000000000000
+      internalID: -6837566108816283242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1480
+        width: 172
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebc83bfb4e1e73d0800000000000000
+      internalID: -3207092572955030558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 918
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58b110dfd4e820d0800000000000000
+      internalID: -3447253864832452515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_9
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 134
+        width: 152
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520e72aee902de2f0800000000000000
+      internalID: -942060880145162203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_10
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1952
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c27aa5bc13820750800000000000000
+      internalID: 6269717790583321287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1906
+        width: 172
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b07f973ff2126bd0800000000000000
+      internalID: -2638525544326532936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 391
+        width: 160
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba4f3ae1e1663050800000000000000
+      internalID: 5779914794702162620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 160
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2276d0c1050835380800000000000000
+      internalID: -8983695750117628126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_shirts_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 390
+        width: 160
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1504ed59e69cc0e20800000000000000
+      internalID: 3318248502263169105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e035e241bf0e6014888859f8ad808b4a
     internalID: 0
     vertices: []
     indices: 
